@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_instructions"
+        android:title="@string/instructions"
+        android:icon="@drawable/ic_bulb"
+        android:actionLayout="@layout/drawer_item_instructions"
+        />
+    <item
+        android:id="@+id/nav_devaram"
+        android:title="@string/devaram"
+        android:layout_gravity="bottom"
+        android:icon="@drawable/ogc"
+    />
+    <!-- Make sure you have ic_bulb in your drawable folder -->
+</menu>

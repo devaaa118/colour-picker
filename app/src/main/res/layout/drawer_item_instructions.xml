@@ -1,0 +1,20 @@
+<!-- res/layout/drawer_header.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/actinst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:visibility="gone"
+
+        android:text="@string/are_you_so_dumb_that_you_need_instructions_for_this_app"
+        android:textColor="@color/white" />
+</LinearLayout>

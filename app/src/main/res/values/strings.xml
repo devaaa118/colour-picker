@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Colour</string>
+    <string name="selected_color">Selected Color</string>
+    <string name="complimentary_colour">COMPLIMENTARY</string>
+    <string name="enter_valid_input">Enter Valid input</string>
+    <string name="adjust_intensity">Adjust Intensity</string>
+    <string name="gauts_colour_picker">GAUTS\' COLOUR PICKER</string>
+    <string name="are_you_so_dumb_that_you_need_instructions_for_this_app">Are you so dumb that you need instructions for this app?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu">Menu</string>
+    <string name="textview">TextView</string>
+    <string name="instructions" >Instructions</string>
+    <string name="devaram">Devaram</string>
+</resources>
