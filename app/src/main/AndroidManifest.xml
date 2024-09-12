@@ -7,13 +7,23 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/gaut"
-        android:label=""
+        android:label="Gauts' Colour Picker"
         android:roundIcon="@mipmap/gaut"
         android:supportsRtl="true"
         android:theme="@style/Theme.Colour"
         tools:targetApi="31"
         >
 
+        <activity android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Colour.NoActionBar"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- SplashActivity as the Launcher Activity -->
         <activity android:name=".MainActivity"
 
@@ -22,16 +32,6 @@
         </activity>
 
 
-        <activity android:name=".SplashActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Colour"
-            >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <!-- MainActivity without the Launcher Intent-Filter -->
 
